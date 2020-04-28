@@ -2,7 +2,7 @@
 font-family: 'Lobster', cursive; */
 
 body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container-fluid {
@@ -12,18 +12,19 @@ body {
     rgba(171, 171, 171, 1) 0%,
     rgba(186, 126, 8, 1) 100%
   );
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  font-size: 5rem;
+  font-family: 'Indie Flower', cursive;
+
+  font-size: 3rem;
 }
 
 p {
-  font-family: 'Lobster', cursive;
   font-size: 1.5rem;
 }
 
