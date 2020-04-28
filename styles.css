@@ -6,11 +6,11 @@ body {
 }
 
 .container-fluid {
-  background: rgb(63, 251, 145);
+  background: rgb(171, 171, 171);
   background: radial-gradient(
     circle,
-    rgba(63, 251, 145, 1) 0%,
-    rgba(252, 70, 70, 1) 100%
+    rgba(171, 171, 171, 1) 0%,
+    rgba(186, 126, 8, 1) 100%
   );
   height: 100vh;
   display: flex;
