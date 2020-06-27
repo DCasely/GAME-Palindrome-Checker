@@ -3,6 +3,8 @@ font-family: 'Lobster', cursive; */
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  background: url(./palindrome-background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 nav {
@@ -19,16 +21,15 @@ nav {
 }
 
 .container-fluid {
-  background: rgb(171, 171, 171);
-  background: radial-gradient(
-    circle,
-    rgba(171, 171, 171, 1) 0%,
-    rgba(186, 126, 8, 1) 100%
-  );
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-area {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5rem 1rem;
 }
 
 h1 {
